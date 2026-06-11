@@ -15,7 +15,7 @@ function Register(){
             await API.post('/auth/register',formdata);
             
             alert("Registration Successful");
-            navigate('/dashboard');
+            navigate('/');
         }
         catch(error){
             alert("Registration Failed");
