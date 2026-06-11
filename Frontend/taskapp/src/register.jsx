@@ -14,9 +14,6 @@ function Register(){
         try{
             await API.post('/auth/register',formdata);
             
-            localStorage.setItem("token", res.data.token);
-            localStorage.setItem("name", res.data.user.name);
-            
             alert("Registration Successful");
             navigate('/dashboard');
         }
