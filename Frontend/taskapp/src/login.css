@@ -1,0 +1,55 @@
+.main-container{
+    min-height:100vh;
+
+    background-image:
+        linear-gradient(
+            rgba(255,255,255,0.92),
+            rgba(255,255,255,0.92)
+        ),
+        url('/naturepic.jpg');
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    
+}
+
+.container{
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    background:rgba(255,255,255,0.75);
+}
+.container h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.container input{
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-size: 16px;
+}
+.container button{
+    padding: 12px;
+    width: 10rem;
+    margin: 5px auto;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container button:hover{
+    background-color: lightgrey;
+}
+.container p{
+    text-align: center;
+    margin-top: 20px;
+}

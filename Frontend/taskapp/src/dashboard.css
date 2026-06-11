@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    margin-bottom: 0.5rem;
+    margin-left: 23rem;
+}
+.header button{
+    padding: 5px 23px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.header button:hover{
+    background-color: red;
+}
+.write input,textarea{
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-size: 16px;
+}
+.write textarea{
+    min-height: 7rem;
+    width: 45rem;
+}
+.write input{
+    width: 30rem;
+}
+.write button{
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 23px;
+    margin-bottom: 0.7rem;
+    margin-top: 0.5rem;
+}
+.result button{
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 23px;
+    margin-top: 0.7rem;
+    margin-bottom: 0.5rem;
+}
