@@ -13,8 +13,12 @@ function Register(){
         e.preventDefault();
         try{
             await API.post('/auth/register',formdata);
+            
+            localStorage.setItem("token", res.data.token);
+            localStorage.setItem("name", res.data.user.name);
+            
             alert("Registration Successful");
-            navigate('/');
+            navigate('/dashboard');
         }
         catch(error){
             alert("Registration Failed");
