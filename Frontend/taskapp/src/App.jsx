@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={token?<Navigate to='/dashboard'/>:<Login/>}/>
-        <Route path='/register' element={token?<Navigate to='/dashboard'/>:<Register/>}/>
+        <Route path='/register' element={<Register/>}/>
         <Route path='/dashboard' element={<Dashboard/>}/>
       </Routes>
     </BrowserRouter>
