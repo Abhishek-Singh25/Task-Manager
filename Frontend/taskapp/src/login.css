@@ -61,4 +61,10 @@
     .container h2{
         color: #2D3748;
     }
+    .pc{
+        color: brown;
+    }
+    .linkc{
+        color: blueviolet;
+    }
 }
