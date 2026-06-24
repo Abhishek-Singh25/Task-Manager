@@ -53,3 +53,12 @@
     text-align: center;
     margin-top: 20px;
 }
+
+@media (max-width: 412px){
+    .container{
+        width: 265px;
+    }
+    .container h2{
+        color: #2D3748;
+    }
+}
